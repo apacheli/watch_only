@@ -1,0 +1,12 @@
+{
+  "name": "watch_only",
+  "version": "1.0.0",
+  "description": "Redirects you to /watch?v= instead of /shorts",
+  "main": "main.js",
+  "scripts": {
+    "x:build": "web-ext build --overwrite-dest",
+    "x:lint": "web-ext lint"
+  },
+  "author": "apacheli",
+  "license": "MIT"
+}

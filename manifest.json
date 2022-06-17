@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "watch_only",
+  "version": "1.0",
+  "description": "Redirects you to /watch?v= instead of /shorts",
+  "icons": {
+    "48": "48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{047837a5-f017-49fa-9bdc-f28362b882ef}"
+    }
+  }
+}
