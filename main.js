@@ -1,7 +1,5 @@
-document.addEventListener("yt-navigate-finish", () => {
-  const index = location.pathname.indexOf("/shorts/");
-  if (index > -1) {
-    const videoId = location.pathname.substring(8);
-    location.replace(`https://www.youtube.com/watch?v=${videoId}`);
+document.addEventListener("yt-navigate-start", () => {
+  if (location.pathname.startsWith("/shorts/")) {
+    location.replace(`https://www.youtube.com/watch?v=${location.pathname.substring(8)}`);
   }
 });

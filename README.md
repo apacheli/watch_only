@@ -1,7 +1,9 @@
-# watch_only
+# YouTube Shorts Redirector
 
-A simple Mozilla Firefox extension add-on that redirects you to the default
-YouTube video player if you click on a shorts video.
+An Firefox add-on that redirects you from `/shorts/` to `/watch?v=`.
+
+**This extension only works for Firefox users.** Any Chrome support PRs would be
+greatly appreciated!
 
 ## Installation
 
@@ -10,4 +12,4 @@ latest `.xpi` download.
 
 ## License
 
-[Apache License](LICENSE)
+[Apache License, Version 2.0](LICENSE)
