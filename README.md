@@ -1,6 +1,6 @@
 # YouTube Shorts Redirector
 
-An Firefox add-on that redirects you from `/shorts/` to `/watch?v=`.
+A Firefox add-on that redirects you from `/shorts/` to `/watch?v=`.
 
 **This extension only works for Firefox users.** Any Chrome support PRs would be
 greatly appreciated!
